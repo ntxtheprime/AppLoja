@@ -14,7 +14,7 @@ public class AppLoja {
         Cliente cliente1 = new Cliente(1, "Elizabeth", "00045618954");
         
         //Vendas
-        Vendas venda1 = 
+        Venda venda1 = new Venda(1, cliente1);
     }
 
 }

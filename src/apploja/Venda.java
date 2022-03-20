@@ -6,13 +6,13 @@ package apploja;
 '------------------'
 */
 
-public class Vendas {
+public class Venda {
 
     private Cliente cliente;
     private int codigo;
 
-    public Vendas(int codigo, int cliente.getCodigo) {
-        this.cliente.getCodigo() = ;
+    public Venda(int codigo, Cliente cliente) {
+        this.cliente = cliente;
         this.codigo = codigo;
     }
 
@@ -33,8 +33,9 @@ public class Vendas {
     }
     
     public String toString() {
-        return "Codigo: " + this.cliente.getCodigo() + ", Nome: " +
-                this.cliente.getNome() + ", Cpf: " + this.cliente.getCpf()+
-                ", Código da venda: " + this.codigo;
+        return "Codigo: " + this.cliente.getCodigo() + 
+                "\nNome: " + this.cliente.getNome() + 
+                "\nCpf: " + this.cliente.getCpf()+
+                "\nCódigo da venda: " + this.codigo;
     }
 }
